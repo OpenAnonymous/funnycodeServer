@@ -3,7 +3,6 @@ const path = require('path');
 
 var storage = multer.diskStorage({
     destination: function(req, file, cb) {
-      console.dir(file);
       if (file.fieldname === 'thumnal') {
         cb(null, 'uploads/thumnal');
       } else if (file.fieldname === 'filecode') {
@@ -13,13 +12,28 @@ var storage = multer.diskStorage({
       }
     },
     filename: function (req, file, cb) {
-        // Extract the original file extension (if present)
-        // Combine the field name, timestamp, and extension
+      
         cb(null, file.originalname);
     }
 });
 
-var upload = multer({ storage: storage });
+const upload = multer({ 
+  storage: storage,
+  fileFilter: function (req, file, cb) {
+    const extname = path.extname(file.originalname).toLowerCase();
+    if (extname === '.js' || extname === '.txt') {
+      cb(null, true);
+    }
+    else if (extname === '.jpg' || extname === '.png') {
+        cb(null, true);
+    }
+    else {
+        cb(new Error('Only image files are allowed'));
+    }
+  }
+});
+
+
 var cpUpload = upload.fields([
   { name: 'thumnal', maxCount: 1 },
   { name: 'filecode', maxCount: 1 },
