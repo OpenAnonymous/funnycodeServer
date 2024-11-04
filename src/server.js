@@ -48,7 +48,7 @@ const tasks = {
   ]
 };
 
-app.get('/tasks', (req, res) => {
+app.use('/tasks', (req, res) => {
   res.json(tasks);
 });
 
