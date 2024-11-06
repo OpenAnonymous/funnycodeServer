@@ -40,17 +40,24 @@ const tasks = {
         { "title": "Find hidden code - watch Bums Show Episode 2", "code": "23456" },
         { "title": "Find hidden code - watch Bums Show Episode 1", "code": "34567" }
     ]
-  };
+};
 
+const lottery = {
+    "day": "11/06/2024",
+    "answer": "6/34/52"
+}
 
-router.use("/json" ,(req,res)=>{
+router.use("/json", (req, res) => {
     res.json(tasks);
 })
-router.use("/home",route);
-router.use("/about",(req,res) => {
+router.use("/lottery",(req,res)=>{
+    res.json(lottery);
+});
+router.use("/home", route);
+router.use("/about", (req, res) => {
     res.write("<h1>about more</h1>");
     res.end();
 })
-router.use("/admin",route);
+router.use("/admin", route);
 
 module.exports = router;
