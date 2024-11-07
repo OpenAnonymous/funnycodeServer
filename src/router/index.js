@@ -43,8 +43,8 @@ const tasks = {
 };
 
 const lottery = {
-    "day": "11/06/2024",
-    "answer": "6/34/52"
+    "day": "11/07/2024",
+    "answer": "14/23/56"
 }
 
 router.use("/json", (req, res) => {
