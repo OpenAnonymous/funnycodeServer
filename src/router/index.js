@@ -22,8 +22,8 @@ const tasks = {
         { "title": "Find hidden code - watch Bums Show Episode 23", "code": "16086" },
         { "title": "Find hidden code - watch Bums Show Episode 22", "code": "18948" },
         { "title": "Find hidden code - watch Bums Show Episode 21", "code": "74737" },
-        { "title": "Find hidden code - watch Bums Show Episode 20", "code": "83274" },
-        { "title": "Find hidden code - watch Bums Show Episode 19", "code": "56510" },
+        { "title": "Find hidden code - watch Bums Show Episode 20", "code": "83273" },
+        { "title": "Find hidden code - watch Bums Show Episode 19", "code": "86100" },
         { "title": "Find hidden code - watch Bums Show Episode 18", "code": "86100" },
         { "title": "Find hidden code - watch Bums Show Episode 17", "code": "35264" },
         { "title": "Find hidden code - watch Bums Show Episode 16", "code": "98109" },
@@ -41,7 +41,8 @@ const tasks = {
         { "title": "Find hidden code - watch Bums Show Episode 4", "code": "13527" },
         { "title": "Find hidden code - watch Bums Show Episode 3", "code": "51264" },
         { "title": "Find hidden code - watch Bums Show Episode 2", "code": "88125" },
-        { "title": "Find hidden code - watch Bums Show Episode 1", "code": "95065" }
+        { "title": "Find hidden code - watch Bums Show Episode 1", "code": "95065" },
+        { "title": "Find hidden code - watch Bums Show Episode 0", "code": "42858" }
     ]
 };
 
