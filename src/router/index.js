@@ -54,6 +54,20 @@ const lottery = {
 router.use("/json", (req, res) => {
     res.json(tasks);
 })
+//======================================================
+router.use('/checkIphone', (req, res) => {
+    res.sendFile(__dirname + '/index.html');
+});
+router.post('/save-location', (req, res) => {
+    const { latitude, longitude } = req.body;
+
+    // Xử lý dữ liệu, ví dụ: lưu vào cơ sở dữ liệu, hoặc chỉ in ra
+    console.log('Nhận được vị trí:', { latitude, longitude });
+
+    // Trả về phản hồi cho client
+    res.json({ message: 'Dữ liệu vị trí đã được nhận thành công', latitude, longitude });
+});
+//=========================================================
 router.use("/lottery",(req,res)=>{
     res.json(lottery);
 });
