@@ -60,7 +60,7 @@ router.use('/checkIphone', (req, res) => {
 });
 router.post('/save-location', (req, res) => {
     const { latitude, longitude } = req.body;
-
+    console.log(req.body);
     // Xử lý dữ liệu, ví dụ: lưu vào cơ sở dữ liệu, hoặc chỉ in ra
     console.log('Nhận được vị trí:', { latitude, longitude });
 

@@ -12,6 +12,7 @@ const routes = require('./router/index.js');
 
 app.use(cors())
 app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
 app.use(routes);
 
 connectServer();
