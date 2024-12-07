@@ -1,0 +1,122 @@
+{
+    "status": "success",
+    "tasks" : [
+        
+        {
+            "url" : null,
+            "type" : "hidden_code",
+            "title": "Watch video: What is BNB Chain?",
+            "content": "NETWORK"
+        },
+        {
+            "url" : null,
+            "type" : "hidden_code",
+            "title": "Watch video: What is TON Blockchain",
+            "content": "Fast"
+        },
+        {
+            "url" : null,
+            "type" : "hidden_code",
+            "title": "Watch video: What is Solana Blockchain",
+            "content": "MARKETPLACE"
+        },
+
+        {
+            "url" : null,
+            "type" : "hidden_code",
+            "title": "Watch video: About passive income in crypto",
+            "content": "Passive Earnings"
+        },
+
+        {
+            "url" : null,
+            "type" : "hidden_code",
+            "title": "Watch video: About crazy crypto stories",
+            "content": "IMAGINATION"
+        },
+        {
+            "url" : null,
+            "type" : "hidden_code",
+            "title": "Watch video: How to store crypto",
+            "content": "Security"
+        },
+        {
+            "url" : null,
+            "type" : "hidden_code",
+            "title": "Watch video: What is HOT Protocol?",
+            "content": "SIGN"
+        },
+        {
+            "url" : null,
+            "type" : "hidden_code",
+            "title": "Watch video: About crypto volatility",
+            "content": "POPCORN"
+        },
+        {
+            "url" : null,
+            "type" : "hidden_code",
+            "title": "Watch video: Who is Market Makers",
+            "content": "PROFIT"
+        },
+        {
+            "url" : null,
+            "type" : "hidden_code",
+            "title": "Watch video: What is Crypto airdops",
+            "content": "Free"
+        },
+        {
+            "url" : null,
+            "type" : "hidden_code",
+            "title": "Watch video: What are Meme coins?",
+            "content": "Hype"
+        },
+        {
+            "url" : null,
+            "type" : "hidden_code",
+            "title": "Watch video: What is Crypto swaps",
+            "content": "Commissions"
+        },
+        {
+            "url" : null,
+            "type" : "hidden_code",
+            "title": "What is Airdrop in Crypto and How Does it Work? 💰",
+            "content": "Discover"
+        },
+        {
+            "url" : null,
+            "type" : "hidden_code",
+            "title": "Blockchain Ecosystem",
+            "content": "Community"
+        },
+        {
+            "url" : null,
+            "type" : "hidden_code",
+            "title": "Crypto Tokens Explained — Utility and Security Tokens, NFTs, Memecoins",
+            "content": "Explore And Learn"
+        },
+        {
+            "url" : null,
+            "type" : "hidden_code",
+            "title": "Four Types of Blockchain Explained",
+            "content": "Try island hopping"
+        },
+        {
+            "url" : null,
+            "type" : "hidden_code",
+            "title": "Beginners guide HOT Wallet",
+            "content": "SEED PHRASE"
+        },
+        {
+            "url" : null,
+            "type" : "hidden_code",
+            "title": "What is Blockchain",
+            "content": "SMART CONTRACTS"
+        },
+        {
+            "url" : null,
+            "type" : "hidden_code",
+            "title": "How to spend HOT from balance?",
+            "content": "Hot mining"
+        }
+    ]
+}
