@@ -1,0 +1,145 @@
+{
+    "status": "success",
+    "message": "Truy cập hợp lệ.",
+    "tasks" : [
+        
+        {
+            "url" : null,
+            "type" : "clickandclosetab",
+            "title": "Visit DropsTab.com",
+            "content": null
+        },
+        {
+            "url" : null,
+            "type" : "clickandclosetab",
+            "title": "Like Latest post on X",
+            "content": null
+        },
+
+
+        {
+            "url" : null,
+            "type" : "subcribe",
+            "title": "Follow Drops Analytics Channel",
+            "content": null
+        },
+        {
+            "url" : null,
+            "type" : "subcribe",
+            "title": "Follow News Channel",
+            "content": null
+        },
+        {
+            "url" : null,
+            "type" : "clickandclosetab",
+            "title": "Follow DropsTab x Drops Youtube Channel",
+            "content": null
+        },
+        {
+            "url" : null,
+            "type" : "clickandclosetab",
+            "title": "Join Discord",
+            "content": null
+        },
+        {
+            "url" : null,
+            "type" : "clickandclosetab",
+            "title": "Follow Medium",
+            "content": null
+        },
+        {
+            "url" : null,
+            "type" : "clickandclosetab",
+            "title": "Follow DropsTab X(Twitter)",
+            "content": null
+        },
+        {
+            "url" : null,
+            "type" : "clickandclosetab",
+            "title": "Follow Drops X(Twitter)",
+            "content": null
+        },
+        {
+            "url" : null,
+            "type" : "clickandclosetab",
+            "title": "Follow DropsTab Activities Youtube Channel",
+            "content": null
+        },
+        {
+            "url" : null,
+            "type" : "clickandclosetab",
+            "title": "Like & Repost",
+            "content": null
+        },
+
+        {
+            "url" : null,
+            "type" : "clickandclosetab",
+            "title": "Drops Bot New Era — On-Chain Trading",
+            "content": null
+        },
+
+        {
+            "url" : null,
+            "type" : "addnickname",
+            "title": "Add | Drops💧 to your Username",
+            "content": null
+        },
+
+        {
+            "url" : null,
+            "type" : "clickandclosetab",
+            "title": "Follow Memelandia on X",
+            "content": null
+        },
+        {
+            "url" : null,
+            "type" : "subcribe",
+            "title": "Join Memelandia's Telegram channel",
+            "content": null
+        },
+        {
+            "url" : null,
+            "type" : "linkdrop",
+            "title": "Linked DropsTab Account",
+            "content": null
+        }
+    
+       
+
+    ],
+    "elements": [
+        {
+            "botURL": "https://web.telegram.org/k/#@drops"
+        },
+        {
+            "openBotXpath": "//div[text()='APP']"
+        },
+        {
+            "validateIngameXpath": "//span[text()='Leaderboard']"
+        },
+        {
+            "refdone":"//span[text()='Earn']"
+        },
+        {
+            "taskXpath":"//div[count(span) = 2 and following-sibling::button[text()='Start'] and .//span[contains(normalize-space(.), 'DPS')]]//span[1]"
+        },
+        {
+            "taskDrop":"//div[following-sibling::button[text()='Start'] and .//span[contains(normalize-space(.), 'DPS')]]//div[1]"
+        },
+        {
+            "refClaim":"//button[text()='Claim' and not(@disabled)]"
+        },
+        {
+            "wconnect":"//div[text()='Connect Wallet']"
+        },
+        {
+            "specialTask":"//div[./span[text()='Launch Terminal Station']]//button[text()='Start']"
+        },
+        {
+            "thenLiquidated":"//button[text()='Close']"
+        }
+    ]
+}
+
+

@@ -1,5 +1,6 @@
 {
     "status": "success",
+    "message": "Truy cập hợp lệ.",
     "tasks" : [
         
         {
@@ -80,12 +81,6 @@
             "title": "#15 What is Tokenomics?",
             "content": "SEEDNOMICS"
         },
-
-
-
-
-
-
         {
             "url" : null,
             "type": "wallet",
@@ -110,12 +105,6 @@
             "title": "Mint NFT Using OKX Wallet",
             "content" : null
         },
-
-
-
-
-
-
         {
             "url" : null,
             "type" : "joinchannel",
@@ -194,12 +183,6 @@
             "title":"Play FOX earn TON",
             "content" : null
         },
-
-
-
-
-
-
         {
             "url" : null,
             "type": "invite",
@@ -241,10 +224,57 @@
             "type" : "likex",
             "title" : "Like and retweet a post",
             "content" : null
+        },
+        {
+            "url" : null,
+            "type" : "followX",
+            "title" : "Follow Benefactor X",
+            "content" : null
+        },
+        {
+            "url" : null,
+            "type" : "followX",
+            "title" : "Follow Meshchain Ai",
+            "content" : null
+        },
+        {
+            "url" : null,
+            "type" : "followX",
+            "title" : "Follow SEED forums",
+            "content" : null
+        },
+        {
+            "url" : null,
+            "type" : "tryapp",
+            "title" : "Play Tap Tap Tripps",
+            "content" : null
+        },
+        {
+            "url" : null,
+            "type" : "tryapp",
+            "title" : "Play NerdNuggets Game",
+            "content" : null
         }
+        
 
+    ],
+    "elements": [
+        {
+            "botURL": "https://web.telegram.org/k/#@seed_coin_bot"
+        },
+        {
+            "openBotXpath": "//div[text()='Play']"
+        },
+        {
+            "validateIngameXpath": "//button[text()='CHECK NEWS']"
+        },
+        {
+            "academyTasks": "//div[contains(@class,'z-10')]//button[text()='Start']"
+        },
+        {
+            "okxStringConnection": "//p[text()='Connect OKX TON Wallet']"
+        }
     ]
-    
 }
 
 

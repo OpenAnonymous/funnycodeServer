@@ -1,0 +1,21 @@
+{
+    "status": "success",
+    "message": "Truy cập hợp lệ.",
+    "tasks": [{
+
+    }],
+    "elements": [
+        {
+            "botURL": "https://web.telegram.org/k/#@sidekick_fans_bot"
+        },
+        {
+            "openBotXpath": "//div[contains(text(),'Play')] | //span[text()='TAP to Start!']"
+        },
+        {
+            "validateIngameXpath": "//div[text()='Gachapon']"
+        },
+        {
+            "inputAddress":"//h2/following-sibling::input"
+        }
+    ]
+}

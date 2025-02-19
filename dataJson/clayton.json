@@ -1,0 +1,30 @@
+{
+    "status": "success",
+    "message": "Truy cập hợp lệ.",
+    "tasks": [
+        {
+            "url": null,
+            "type": "hiddencode",
+            "title": "Watch episode 07 “NFT and Digital Art” from Bits Academy and enter the secret code",
+            "content": "99563794"
+        }
+    
+    ],
+    "elements": [
+        {
+            "botURL": "https://web.telegram.org/k/#@claytoncoinbot"
+        },
+        {
+            "openBotXpath": "//div[contains(text(),'Game')] | //span[contains(.,'Play Game')]"
+        },
+        {
+            "validateIngameXpath": "//iframe"
+        },
+        {
+            "loadSuccess":"//span[text()='Home']"
+        },
+        {
+            "tokenPoint":"//div[@class='avatar-tokens']/p"
+        }
+    ]
+}

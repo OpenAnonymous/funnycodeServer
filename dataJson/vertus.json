@@ -1,0 +1,182 @@
+{
+    "status": "success",
+    "message": "Truy cập hợp lệ.",
+    "tasks": [
+        {
+            "url": null,
+            "type": "joinchanel",
+            "title": "Follow on Telegram",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "joinchanel",
+            "title": "Follow Channel",
+            "content": null
+        },
+
+        {
+            "url": null,
+            "type": "followX",
+            "title": "Follow on X",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "invite",
+            "title": "Welcome bonus",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "invite",
+            "title": "Invite friends",
+            "content": null
+        },
+
+
+        {
+            "url": null,
+            "type": "tryapp",
+            "title": "Play a game",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "nocheck",
+            "title": "Subscribe",
+            "content": null
+        },
+
+
+
+        {
+            "url": null,
+            "type": "tryapp",
+            "title": "Open App",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "tryapp",
+            "title": "Open App",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "nocheck",
+            "title": "Start Farming",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "nocheck",
+            "title": "Join Solana Airdrop",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "nocheck",
+            "title": "Start farming in BlockBits",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "tryapp",
+            "title": "Find prizes behind gates",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "nocheck",
+            "title": "Complete any task",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "followX",
+            "title": "Subscribe and watch",
+            "content": null 
+        },
+        {
+            "url": null,
+            "type": "invite",
+            "title": "Get reward on day #1",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "nocheck",
+            "title": "Choose a card",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "nocheck",
+            "title": "Buy access to the app",
+            "content": null
+        }
+        
+        
+        
+        
+        ,{
+            "url": null,
+            "type": "invite",
+            "title": "Connect your wallet",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "invite",
+            "title": "Withdraw ton",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "invite",
+            "title": "with ton-connect",
+            "content": null
+        }
+
+        ,
+        {
+            "url": null,
+            "type": "followX",
+            "title": "Watch full at lx speed!",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "nocheck",
+            "title": "Follow all",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "joinchanel",
+            "title": "Follow Channel",
+            "content": null
+        }
+        ,
+        {
+            "url": null,
+            "type": "dailycombo",
+            "title": "15/12/2024",
+            "content": "4333"
+        }
+       
+    
+    ],
+    "elements": [
+        {
+            "botURL": "https://web.telegram.org/k/#@Vertus_App_bot"
+        },
+        {
+            "openBotXpath": "//span[contains(text(),'Play game')]"
+        },
+        {
+            "validateIngameXpath": "//p[text()='Claim'] | //p[text()='Transfer'] | //p[text()='Create new account']"
+        }
+    ]
+}

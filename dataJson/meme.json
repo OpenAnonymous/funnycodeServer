@@ -1,0 +1,54 @@
+{
+    "status": "success",
+    "message": "Truy cập hợp lệ.",
+    "tasks": [
+        
+    ],
+    "elements": [
+        {
+            "botURL": "https://web.telegram.org/k/#@Memes_War_Start_Bot"
+        },
+        {
+            "openBotXpath": "//div[text()='Play']"
+        },
+        {
+            "validateIngameXpath": "//a[contains(@href,'airdrop-claim')]"
+        },
+        {
+            "disconnect":"//div//button[.//div[contains(text(),'0')]]"
+        },
+        {
+            "walletConnect": "//div[text()='Connect wallet']"
+        },
+        {
+            "walletConnected":"//div[text()='Check eligibility']"
+        },
+        {
+            "thenSubmitWallet":"//button[@data-testid='confirm-btn']"
+        },
+        {
+            "accept":"//button[@data-testid='confirmation-submit-button']"
+        },
+        {
+            "addressPhantom" : "//div[contains(@class,'walletPanel_address')]"
+        },
+        {
+            "errEligible" : "//h1[text()='You are not eligible!']"
+        },
+        {
+            "Eligible": "//div[text()='Claim $M']"
+        },
+        {
+            "claimed" : "//div[text()='Claim successful!']"
+        },
+        {
+            "totalClaim": "//span[text()='Total claimable']"
+        },
+        {
+            "claim":"//button//div[text()='Claim']"
+        },
+        {
+            "acceptMetaMask" : "//button[@data-testid='confirm-footer-button']"
+        }
+    ]
+}

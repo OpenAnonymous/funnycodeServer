@@ -1,0 +1,67 @@
+{
+    "status": "success",
+    "message": "Truy cập hợp lệ.",
+    "tasks": [
+        {
+            "url": null,
+            "type": "hiddencode",
+            "title": "Watch the pilot episode of Bits Academy and enter the secret code",
+            "content": "00100100"
+        },
+        {
+            "url": null,
+            "type": "hiddencode",
+            "title": "Watch episode 01 \"History of Bitcoin\" from Bits Academy and enter the secret code",
+            "content": "92847318"
+        },
+        {
+            "url": null,
+            "type": "hiddencode",
+            "title": "Watch episode 02 \"Blockchain Technology\" from Bits Academy and enter the secret code",
+            "content": "57376835"
+        },
+        {
+            "url": null,
+            "type": "hiddencode",
+            "title": "Watch episode 03 \"Cryptocurrency Investment Strategies\" from Bits Academy and enter the secret code",
+            "content": "72158452"
+        },
+        {
+            "url": null,
+            "type": "hiddencode",
+            "title": "Watch episode 04 \"Altcoin Market\" from Bits Academy and enter the secret code",
+            "content": "23355638"
+        },
+        {
+            "url": null,
+            "type": "hiddencode",
+            "title": "Watch episode 05 “Cryptocurrency Regulation” from Bits Academy and enter the secret code",
+            "content": "48162644"
+        },
+        {
+            "url": null,
+            "type": "hiddencode",
+            "title": "Watch episode 06 “Financial security in cryptocurrency” from Bits Academy and enter the secret code",
+            "content": "64812569"
+        },
+        {
+            "url": null,
+            "type": "hiddencode",
+            "title": "Watch episode 07 “NFT and Digital Art” from Bits Academy and enter the secret code",
+            "content": "99563794"
+        }
+    
+      
+    ],
+    "elements": [
+        {
+            "botURL": "https://web.telegram.org/k/#@bits"
+        },
+        {
+            "openBotXpath": "//div[text()='Play']"
+        },
+        {
+            "validateIngameXpath": "//p[contains(string(), 'Reward for daily login')]"
+        }
+    ]
+}

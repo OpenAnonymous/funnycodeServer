@@ -1,0 +1,179 @@
+{
+    "status": "success",
+    "message": "Truy cập hợp lệ.",
+    "tasks": [
+        {
+            "url": null,
+            "type": "Turtle",
+            "title": "10",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "Rabbit",
+            "title": "20",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "Squirrel",
+            "title": "40",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "Flamingo",
+            "title": "66",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "Zebra",
+            "title": "90",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "Moose",
+            "title": "120",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "Giraffe",
+            "title": "195",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "Parrot",
+            "title": "255",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "Fox",
+            "title": "1305",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "Penguin",
+            "title": "1615",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "Crocodile",
+            "title": "2210",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "Panda",
+            "title": "2840",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "Wolf",
+            "title": "3500",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "Bear",
+            "title": "4500",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "Dolphin",
+            "title": "6000",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "Platypus",
+            "title": "16000",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "Capybara",
+            "title": "16000",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "Walrus",
+            "title": "23000",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "Seal",
+            "title": "23000",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "Pepe",
+            "title": "25000",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "Doge",
+            "title": "25000",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "Elephant",
+            "title": "148000",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "Rhinoceros",
+            "title": "235000",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "Orca",
+            "title": "295000",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "Tiger",
+            "title": "595000",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "Shark",
+            "title": "1495000",
+            "content": null
+        },
+        {
+            "url": null,
+            "type": "Lion",
+            "title": "2990000",
+            "content": null
+        }
+    ],
+    "elements": [
+        {
+            "botURL": "https://web.telegram.org/k/#@zoos_story_bot"
+        },
+        {
+            "openBotXpath": "//span[normalize-space(text())='Play'] | //span[text() = 'ZOO']"
+        },
+        {
+            "validateIngameXpath": "//div[text()='Quiz'] | //p[text()='Nhiệm vụ'] | //div[contains(@class, 'coin38')]"
+        }
+    ]
+}
